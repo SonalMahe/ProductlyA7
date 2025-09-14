@@ -5,10 +5,11 @@ body{
     display: flex;
     font-family: poppins;
 }
+
 /*this is Navigation bar */
 .navbar{
     display: inline-block;
-    height: 100px;
+    height:100px;
     width:100%;
     background-color: white;
     align-items: center;
@@ -25,7 +26,7 @@ body{
     height:50px;
     display: flex;
     justify-content:center;
-    margin-left: 150px;
+    margin-left: 100px;
 }
      
  li{
@@ -89,7 +90,8 @@ button{
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-}
+} 
+
 /*this is section 3*/
 .sec3-container{
     display: flex;
@@ -98,18 +100,20 @@ button{
     margin-top: 20px;
     width: 100%;   
     gap:100px;
-
  }
+
  .section3{     
     max-width:350px;
     align-items: center;
     gap:0px;
     margin-top: 30px;
-    
  }
+
 .imgageallign{
    padding: 10px 0;   
  }
+
+
 /*this is section 4*/
 
 .sec4-container{
@@ -129,10 +133,67 @@ button{
  }
 
 .imgageallign{
-   padding: 10px 0;   
+   padding: 10px 0px;   
  }
 
  .listallign{
-    padding:30px;
+   margin:30px;
+   gap:20px;
+    padding:20px;
+    display: inline;
+
+ }
+ 
+ 
+ /*this is section 5*/
+ .sec5-container{
+    display: flex;
+    align-items: center;
+    padding: 40px 69px 25px 100px;
+    margin-top: 20px;
+    width: 100%;   
+    gap:50px;
+
+ }
+ .section5{     
+    max-width:350px;
+    align-items: center;
+    margin-top: 30px;
+    
+ }
+.imgageallign{
+   padding: 10px 0;   
+ }
+
+/*this is footer section */
+ .footercontainer{
+   
+    width:100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.footerlogo{
+    max-width: 100px;
+    padding :50px;
+    margin:50px;
     display: inline-block;
+    justify-content:center;
+
+ }
+ .list2{
+    gap:20px;
+    display: flex;
+    margin-left: 100px;
+ }
+ .search{
+   display:flex;
+   height: 30px;
+   max-width: 100px;
+   border-radius: 10px;
+   background-color: beige;
+   padding: 5px;
+   margin: 20px;
  }
