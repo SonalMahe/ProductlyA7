@@ -3,12 +3,12 @@ body{
     width:100%;
     background-color: white;
     display: flex;
-    font-family: poppins;
+    font-family: Poppins,sans-serif;
 }
 
 /*this is Navigation bar */
 .navbar{
-    display: inline-block;
+    display: flex;
     height:100px;
     width:100%;
     background-color: white;
@@ -136,7 +136,7 @@ button{
  }
 
  .listallign{
-    display: inline;
+    display: inline-block;
  }
  
  
@@ -186,7 +186,7 @@ button{
  .search{
    display:flex;
    height: 30px;
-   max-width: 100px;
+   width: 100px;
    border-radius: 10px;
    background-color: beige;
    padding: 5px;
