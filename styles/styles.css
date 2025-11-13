@@ -174,7 +174,7 @@ button{
     max-width: 100px;
     padding :50px;
     margin:50px;
-    display: inline-block;
+    display: inline-blocks;
     justify-content:center;
 
  }
